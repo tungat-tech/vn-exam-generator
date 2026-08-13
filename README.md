@@ -1,6 +1,6 @@
-# Open Giáo Dục VN
+# VietEduKit
 
-Open Giáo Dục VN là dự án mã nguồn mở theo hướng **content/skill-first**, giúp giáo viên và phụ huynh Việt Nam tạo học liệu bám chương trình phổ thông bằng nhiều mô hình ngôn ngữ khác nhau.
+VietEduKit là dự án mã nguồn mở theo hướng **content/skill-first**, giúp giáo viên và phụ huynh Việt Nam tạo học liệu bám chương trình phổ thông bằng nhiều mô hình ngôn ngữ khác nhau.
 
 Module đã có:
 

@@ -1,6 +1,6 @@
 # Đóng góp
 
-Cảm ơn bạn muốn đóng góp cho Open Giáo Dục VN. Tiếng Việt là ngôn ngữ chính của curriculum; tên file/thư mục dùng tiếng Anh để thuận tiện phát triển.
+Cảm ơn bạn muốn đóng góp cho VietEduKit. Tiếng Việt là ngôn ngữ chính của curriculum; tên file/thư mục dùng tiếng Anh để thuận tiện phát triển.
 
 ## Nguyên tắc
 

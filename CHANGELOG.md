@@ -6,6 +6,7 @@ Các thay đổi đáng chú ý của repository được ghi tại đây. Modul
 
 ### Changed
 
+- Đổi tên hiển thị của dự án thành `VietEduKit`; giữ nguyên repository slug và lịch sử dự án.
 - Chuyển dual-license từ MIT + CC BY 4.0 sang AGPL-3.0 cho phần mềm và CC BY-SA 4.0 cho nội dung giáo dục/tài liệu. Thay đổi không thu hồi quyền đã cấp cho các bản được nhận theo giấy phép cũ.
 
 ### Added

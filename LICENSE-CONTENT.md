@@ -1,6 +1,6 @@
 # Giấy phép nội dung giáo dục
 
-Copyright © 2026 Open Giáo Dục VN contributors
+Copyright © 2026 VietEduKit contributors
 
 Trừ khi một file ghi rõ điều khoản khác, curriculum, mapping do dự án biên soạn, quy tắc giáo dục, ví dụ và tài liệu trong repository này được cấp phép theo **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)**:
 
@@ -8,7 +8,7 @@ Trừ khi một file ghi rõ điều khoản khác, curriculum, mapping do dự 
 
 Bạn được phép chia sẻ và chuyển thể nội dung, kể cả cho mục đích thương mại, với các điều kiện chính:
 
-- ghi công phù hợp cho `Open Giáo Dục VN contributors`, kèm liên kết tới repository và giấy phép;
+- ghi công phù hợp cho `VietEduKit contributors`, kèm liên kết tới repository và giấy phép;
 - nêu rõ nếu đã thay đổi nội dung;
 - nếu chia sẻ bản chuyển thể, phát hành phần đóng góp theo CC BY-SA 4.0 hoặc giấy phép tương thích được Creative Commons công nhận;
 - không ngụ ý rằng dự án, tác giả đóng góp hoặc Bộ Giáo dục và Đào tạo xác nhận hay bảo trợ sản phẩm của bạn.
