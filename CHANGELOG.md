@@ -4,6 +4,10 @@ Các thay đổi đáng chú ý của repository được ghi tại đây. Modul
 
 ## [Unreleased]
 
+### Changed
+
+- Chuyển dual-license từ MIT + CC BY 4.0 sang AGPL-3.0 cho phần mềm và CC BY-SA 4.0 cho nội dung giáo dục/tài liệu. Thay đổi không thu hồi quyền đã cấp cho các bản được nhận theo giấy phép cũ.
+
 ### Added
 
 - Quy tắc preview/export dùng chung cho GPTs Toán 1–5: hiển thị document view trước, không tạo sẵn file; chỉ xuất PDF hoặc DOCX sau khi người dùng chọn.

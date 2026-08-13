@@ -16,7 +16,7 @@ function Read-Utf8([string]$relativePath) {
 }
 
 $requiredFiles = @(
-    'README.md', 'LICENSE', 'CONTRIBUTING.md', 'CHANGELOG.md',
+    'README.md', 'LICENSE', 'LICENSE-CONTENT.md', 'CONTRIBUTING.md', 'CHANGELOG.md',
     'core/assessment.md', 'core/question-design.md', 'core/output-format.md', 'core/quality-gate.md',
     'subjects/math/grade-3/skill.md', 'subjects/math/grade-3/curriculum.md',
     'subjects/math/grade-3/textbook-mapping.yaml', 'subjects/math/grade-3/textbook-mapping.md',
@@ -27,6 +27,20 @@ $requiredFiles = @(
 foreach ($relativePath in $requiredFiles) {
     Assert-True (Test-Path -LiteralPath (Join-Path $repoRoot $relativePath) -PathType Leaf) "Required file exists: $relativePath"
 }
+
+$softwareLicense = Read-Utf8 'LICENSE'
+$contentLicense = Read-Utf8 'LICENSE-CONTENT.md'
+$rootReadme = Read-Utf8 'README.md'
+$contributing = Read-Utf8 'CONTRIBUTING.md'
+Assert-True ($softwareLicense -match 'GNU AFFERO GENERAL PUBLIC LICENSE') 'Software license is GNU AGPL'
+Assert-True ($softwareLicense -match 'Version 3, 19 November 2007') 'Software license is AGPL version 3'
+Assert-True ($softwareLicense -match '13\. Remote Network Interaction') 'AGPL network interaction clause is present'
+Assert-True ($contentLicense -match 'Creative Commons Attribution-ShareAlike 4\.0 International') 'Content license is CC BY-SA 4.0'
+Assert-True ($rootReadme -match 'AGPL-3\.0') 'README declares AGPL-3.0'
+Assert-True ($rootReadme -match 'CC BY-SA 4\.0') 'README declares CC BY-SA 4.0'
+Assert-True ($contributing -match 'AGPL-3\.0') 'Contribution terms declare AGPL-3.0 for software'
+Assert-True ($contributing -match 'CC BY-SA 4\.0') 'Contribution terms declare CC BY-SA 4.0 for content'
+Assert-True ($rootReadme -notmatch 'Mã nguồn và script: MIT') 'README no longer declares MIT for current software'
 
 $sourcePath = Join-Path $repoRoot 'docs/source/TOAN3_SKILL_v1_1_VERIFIED_20260812.md'
 $sourceHash = (Get-FileHash -Algorithm SHA256 -LiteralPath $sourcePath).Hash

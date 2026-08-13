@@ -49,3 +49,12 @@ Issue nên có:
 - ảnh hưởng dự kiến tới fixture, adapter hoặc output.
 
 Không gửi dữ liệu cá nhân, bài làm có tên thật của học sinh hoặc tài liệu không có quyền chia sẻ.
+
+## Giấy phép cho đóng góp
+
+Khi gửi đóng góp, bạn xác nhận mình có quyền cung cấp nội dung đó và đồng ý cấp phép phần đóng góp theo phạm vi tương ứng:
+
+- code, script, schema và thành phần phần mềm: **AGPL-3.0**;
+- curriculum, mapping do dự án biên soạn, quy tắc giáo dục, ví dụ và tài liệu: **CC BY-SA 4.0**.
+
+Không gửi nội dung không tương thích với các giấy phép này. Nếu một đóng góp kết hợp code và nội dung giáo dục, mô tả rõ ranh giới trong pull request. Xem [LICENSE](LICENSE) và [LICENSE-CONTENT.md](LICENSE-CONTENT.md).

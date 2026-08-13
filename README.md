@@ -81,4 +81,9 @@ Mở issue với tiêu đề `curriculum: <mô tả ngắn>` và cung cấp: fil
 
 ## Giấy phép
 
-Mã nguồn và script: MIT. Nội dung giáo dục và tài liệu: CC BY 4.0. Xem [LICENSE](LICENSE).
+Repository sử dụng dual-license:
+
+- mã nguồn, script, schema và thành phần phần mềm: **GNU Affero General Public License v3.0 (AGPL-3.0)** — xem [LICENSE](LICENSE);
+- curriculum, mapping do dự án biên soạn, quy tắc giáo dục, ví dụ và tài liệu: **Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** — xem [LICENSE-CONTENT.md](LICENSE-CONTENT.md).
+
+Cả hai giấy phép đều cho phép sử dụng thương mại. AGPL yêu cầu duy trì quyền tiếp cận mã nguồn, bao gồm trường hợp phần mềm đã sửa được cung cấp qua mạng; CC BY-SA yêu cầu ghi công và chia sẻ bản chuyển thể theo cùng điều khoản. Các quyền đã được cấp cho bản phát hành trước theo MIT/CC BY 4.0 không bị thu hồi.
