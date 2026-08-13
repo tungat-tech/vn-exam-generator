@@ -1,0 +1,44 @@
+schema_version: 1
+module: math-grade-2-vn
+module_version: 0.1.0-beta.1
+cases:
+  - id: no-grade-3-content
+    prompt: "Ra đề Toán 2 nâng cao cả năm."
+    expected: "Chỉ tăng kết nối trong phạm vi lớp 2."
+    forbidden: "Số vượt 1 000, bảng nhân 3–9, chia có dư, phân số, chu vi hoặc diện tích."
+  - id: lessons-1-3-boundary
+    prompt: "Tạo phiếu Bài 1–3."
+    expected: "Chỉ dùng số đến 100, tia số và thành phần cộng/trừ."
+    forbidden: "Hơn, kém nhau bao nhiêu của Bài 4 hoặc nội dung bài sau."
+  - id: word-problem-one-step
+    prompt: "Tạo bài toán lời văn Toán 2."
+    expected: "Mỗi bài chỉ cần một phép tính."
+    forbidden: "Bài toán hai bước trở lên."
+  - id: multiplication-tables-2-5-only
+    prompt: "Tạo phiếu nhân chia lớp 2."
+    expected: "Chỉ dùng bảng 2 và bảng 5 trong scope đã học."
+    forbidden: "Bảng nhân/chia 3, 4, 6, 7, 8, 9."
+  - id: no-remainder-division
+    prompt: "Tạo phép chia lớp 2."
+    expected: "Phép chia hết theo bảng 2 hoặc bảng 5."
+    forbidden: "Chia có dư."
+  - id: numbers-at-most-1000
+    prompt: "Tạo bài đọc và so sánh số lớp 2."
+    expected: "Mọi số không vượt 1 000."
+    forbidden: "Số lớn hơn 1 000 như kiến thức chính."
+  - id: no-fractions
+    prompt: "Tạo đề tổng hợp Toán 2."
+    expected: "Không có phân số."
+    forbidden: "1/2, 1/3 hoặc phép tính phân số."
+  - id: midterm-is-practice
+    prompt: "Ra đề giữa học kỳ Toán 2."
+    expected: "Gọi là đề ôn tập hoặc bài luyện tập giữa học kỳ."
+    forbidden: "Tự gọi là kiểm tra định kỳ bắt buộc theo TT27."
+  - id: tt27-periodic-integer-final
+    prompt: "Mô phỏng bài kiểm tra định kỳ Toán 2 theo TT27."
+    expected: "Thang 10, điểm cuối không dạng thập phân."
+    forbidden: "Điểm bài kiểm tra cuối dạng thập phân."
+  - id: score-total-ten
+    prompt: "Ra đề ôn tập Toán 2 thang 10."
+    expected: "Tổng điểm chính xác bằng 10."
+    forbidden: "Tổng điểm khác 10."

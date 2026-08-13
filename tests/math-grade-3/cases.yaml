@@ -1,0 +1,69 @@
+schema_version: 1
+module: math-grade-3-vn
+module_version: 1.1.0
+cases:
+  - id: no-grade-4-content
+    prompt: "Ra đề Toán lớp 3 nâng cao ôn cả năm."
+    expected: "Tăng kết nối, suy luận và ngữ cảnh nhưng chỉ dùng kiến thức lớp 3."
+    forbidden: "Số thập phân, tỉ số phần trăm, phép tính phân số, trung bình cộng hoặc tổng–hiệu như kiến thức chính."
+    rationale: "curriculum.md#không-được-làm"
+
+  - id: lessons-1-3-boundary
+    prompt: "Tạo phiếu luyện tập từ Bài 1 đến Bài 3."
+    expected: "Chỉ dùng kiến thức đã học đến hết Bài 3."
+    forbidden: "Bảng nhân/chia từ Bài 4 trở đi hoặc bất kỳ kiến thức chỉ xuất hiện sau Bài 3."
+    rationale: "textbook-mapping.md#quy-tắc"
+
+  - id: word-problem-max-two-steps
+    prompt: "Tạo hai bài toán lời văn nâng cao lớp 3."
+    expected: "Mỗi bài có tối đa 2 bước tính."
+    forbidden: "Bài toán cần 3 bước tính trở lên."
+    rationale: "curriculum.md#bài-toán-có-lời-văn"
+
+  - id: remainder-less-than-divisor
+    prompt: "Tạo 8 phép chia có dư và đáp án."
+    expected: "Mọi phép chia thỏa số bị chia = số chia × thương + số dư và 0 < số dư < số chia."
+    forbidden: "Số dư lớn hơn hoặc bằng số chia."
+    rationale: "curriculum.md#nhân-chia"
+
+  - id: no-two-digit-multiplier
+    prompt: "Tạo bài luyện phép nhân là kỹ năng chính lớp 3."
+    expected: "Phép nhân ngoài bảng có thừa số nhân một chữ số."
+    forbidden: "Phép nhân với số có hai chữ số như kỹ năng chính lớp 3."
+    rationale: "curriculum.md#không-được-làm"
+
+  - id: no-two-digit-divisor
+    prompt: "Tạo bài luyện phép chia lớp 3."
+    expected: "Số chia có một chữ số."
+    forbidden: "Chia cho số có hai chữ số."
+    rationale: "curriculum.md#nhân-chia"
+
+  - id: fractions-familiarization-only
+    prompt: "Tạo phiếu làm quen với phân số lớp 3."
+    expected: "Chỉ dùng 1/2 đến 1/9 qua phần bằng nhau hoặc tìm 1/n của một nhóm."
+    forbidden: "Cộng, trừ, nhân, chia hoặc so sánh phân số theo kiến thức lớp 4."
+    rationale: "curriculum.md#làm-quen-với-phân-số"
+
+  - id: midterm-not-mandatory-periodic
+    prompt: "Ra đề giữa học kỳ Toán lớp 3."
+    expected: "Gọi là Đề ôn tập giữa học kỳ hoặc Bài luyện tập giữa học kỳ."
+    forbidden: "Tự gọi là bài kiểm tra định kỳ bắt buộc theo Thông tư 27."
+    rationale: "assessment.md#phân-biệt-giữa-học-kỳ-và-kiểm-tra-định-kỳ"
+
+  - id: tt27-periodic-integer-final-score
+    prompt: "Mô phỏng bài kiểm tra định kỳ Toán 3 theo TT27."
+    expected: "Dùng thang điểm 10 và điểm bài kiểm tra cuối là số nguyên."
+    forbidden: "Xuất điểm cuối dạng thập phân."
+    rationale: "assessment.md#chấm-điểm"
+
+  - id: score-total-ten
+    prompt: "Ra đề ôn tập Toán 3 có hướng dẫn chấm theo thang 10."
+    expected: "Tổng điểm các câu và ý bằng chính xác 10."
+    forbidden: "Tổng điểm khác 10."
+    rationale: "assessment.md#chấm-điểm"
+
+  - id: week-scope-is-estimate
+    prompt: "Ra bài luyện Toán 3 tuần 12" 
+    expected: "Nếu không có kế hoạch trường/lớp, nêu ngắn gọn rằng phạm vi là ước lượng theo thứ tự SGK."
+    forbidden: "Khẳng định tuyệt đối tuần 12 tương ứng chính xác một bài."
+    rationale: "textbook-mapping.md#quy-tắc"

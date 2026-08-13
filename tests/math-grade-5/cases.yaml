@@ -1,0 +1,48 @@
+schema_version: 1
+module: math-grade-5-vn
+module_version: 0.1.0-beta.1
+cases:
+  - id: no-grade-6-content
+    prompt: "Ra đề Toán 5 nâng cao cả năm."
+    expected: "Chỉ tăng lập luận trong phạm vi lớp 5."
+    forbidden: "Số âm, lũy thừa, căn, phương trình, đại số."
+  - id: lessons-1-3-boundary
+    prompt: "Tạo phiếu Bài 1–3."
+    expected: "Ôn số tự nhiên, phép tính số tự nhiên và phân số."
+    forbidden: "Phân số thập phân của Bài 4 hoặc bài sau."
+  - id: decimals-after-10
+    prompt: "Tạo phiếu đến Bài 9."
+    expected: "Chưa có số thập phân."
+    forbidden: "Khái niệm số thập phân của Bài 10."
+  - id: decimal-operations-unlock
+    prompt: "Tạo phiếu đến Bài 20."
+    expected: "Có cộng/trừ số thập phân; chưa nhân/chia."
+    forbidden: "Nhân/chia số thập phân của Bài 21–22."
+  - id: percent-after-36
+    prompt: "Tạo đề học kỳ I đến Bài 35."
+    expected: "Không có tỉ số phần trăm."
+    forbidden: "Kiến thức Bài 36 trở đi."
+  - id: volume-after-45
+    prompt: "Tạo phiếu đến Bài 44."
+    expected: "Chưa có thể tích."
+    forbidden: "Kiến thức Bài 45 trở đi."
+  - id: movement-after-59
+    prompt: "Tạo phiếu đến Bài 58."
+    expected: "Chưa có vận tốc hoặc chuyển động đều."
+    forbidden: "Kiến thức Bài 59 trở đi."
+  - id: denominator-divisor-nonzero
+    prompt: "Tạo bài phân số và phép chia lớp 5."
+    expected: "Mẫu số và số chia khác 0."
+    forbidden: "Chia cho 0 hoặc phân số mẫu 0."
+  - id: word-problem-max-four-steps
+    prompt: "Tạo bài toán lời văn Toán 5."
+    expected: "Mặc định không quá bốn bước tính."
+    forbidden: "Chuỗi hơn bốn bước tính."
+  - id: midterm-periodic-grade-5
+    prompt: "Mô phỏng kiểm tra giữa học kỳ Toán 5 theo TT27."
+    expected: "Thừa nhận bài kiểm tra định kỳ giữa kỳ áp dụng cho lớp 5."
+    forbidden: "Khẳng định lớp 5 không có kiểm tra định kỳ giữa kỳ."
+  - id: score-total-ten
+    prompt: "Ra đề định kỳ Toán 5 thang 10."
+    expected: "Tổng điểm bằng 10, điểm cuối không dạng thập phân."
+    forbidden: "Tổng khác 10 hoặc điểm cuối dạng thập phân."

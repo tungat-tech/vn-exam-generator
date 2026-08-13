@@ -1,0 +1,5 @@
+# ChatGPT adapter
+
+Phase 1 không tạo một bản curriculum riêng cho ChatGPT. Tạo Project/GPT hoặc phiên chat có file, rồi tải các file trong `adapters/generic/manifest.yaml` lên theo thứ tự. Đặt `subjects/math/grade-3/skill.md` làm instruction điều phối nếu giao diện yêu cầu một file hướng dẫn chính.
+
+Không copy mapping vào instruction riêng và không sửa curriculum tại adapter. Các bundle Toán 1, 4, 5 dùng `scripts/build-chatgpt-math-grade.ps1`; Toán 2 giữ build script tương thích hiện có; Toán 3 verified dùng `scripts/build-chatgpt-math-grade-3.ps1`. Mọi bundle ghép thêm `document-export.md` và sinh `conversation-starters.txt`; copy từng dòng file này vào Conversation starters. Bật **Canvas** để hiện bản xem trước và nút Download. Mọi yêu cầu tạo đề, phiếu, bài, bài tập, bài luyện hoặc học liệu hoàn chỉnh đều mở Canvas như nhau. Không tạo sẵn DOCX/PDF; Code Interpreter & Data Analysis chỉ là fallback sau khi người dùng chọn định dạng. Giới hạn upload/context của từng phiên bản sản phẩm cần được kiểm tra tại thời điểm triển khai.

@@ -1,0 +1,100 @@
+schema_version: 1
+module: math-grade-5-vn
+version: 0.1.0-beta.1
+last_verified: 2026-08-13
+verification_status: provisional-secondary-mapping
+school_year: 2026-2027
+grade: 5
+subject: math
+language: vi
+textbook: Kết nối tri thức với cuộc sống
+lesson_count: 75
+topics:
+  - {id: 1, semester: 1, volume: 1, title: "Ôn tập và bổ sung", lesson_from: 1, lesson_to: 9}
+  - {id: 2, semester: 1, volume: 1, title: "Số thập phân", lesson_from: 10, lesson_to: 14}
+  - {id: 3, semester: 1, volume: 1, title: "Một số đơn vị đo diện tích", lesson_from: 15, lesson_to: 18}
+  - {id: 4, semester: 1, volume: 1, title: "Các phép tính với số thập phân", lesson_from: 19, lesson_to: 24}
+  - {id: 5, semester: 1, volume: 1, title: "Một số hình phẳng. Chu vi và diện tích", lesson_from: 25, lesson_to: 29}
+  - {id: 6, semester: 1, volume: 1, title: "Ôn tập học kì 1", lesson_from: 30, lesson_to: 35}
+  - {id: 7, semester: 2, volume: 2, title: "Tỉ số và các bài toán liên quan", lesson_from: 36, lesson_to: 44}
+  - {id: 8, semester: 2, volume: 2, title: "Thể tích. Đơn vị đo thể tích", lesson_from: 45, lesson_to: 48}
+  - {id: 9, semester: 2, volume: 2, title: "Diện tích và thể tích của một số hình khối", lesson_from: 49, lesson_to: 55}
+  - {id: 10, semester: 2, volume: 2, title: "Số đo thời gian, vận tốc và chuyển động đều", lesson_from: 56, lesson_to: 62}
+  - {id: 11, semester: 2, volume: 2, title: "Một số yếu tố thống kê và xác suất", lesson_from: 63, lesson_to: 67}
+  - {id: 12, semester: 2, volume: 2, title: "Ôn tập cuối năm", lesson_from: 68, lesson_to: 75}
+lessons:
+  - {id: math-g5-kntt-001, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 1, title: "Ôn tập số tự nhiên"}
+  - {id: math-g5-kntt-002, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 2, title: "Ôn tập các phép tính với số tự nhiên"}
+  - {id: math-g5-kntt-003, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 3, title: "Ôn tập phân số"}
+  - {id: math-g5-kntt-004, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 4, title: "Phân số thập phân"}
+  - {id: math-g5-kntt-005, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 5, title: "Ôn tập các phép tính với phân số"}
+  - {id: math-g5-kntt-006, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 6, title: "Cộng, trừ hai phân số khác mẫu số"}
+  - {id: math-g5-kntt-007, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 7, title: "Hỗn số"}
+  - {id: math-g5-kntt-008, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 8, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g5-kntt-009, grade: 5, subject: math, semester: 1, volume: 1, topic: 1, lesson: 9, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-010, grade: 5, subject: math, semester: 1, volume: 1, topic: 2, lesson: 10, title: "Khái niệm số thập phân"}
+  - {id: math-g5-kntt-011, grade: 5, subject: math, semester: 1, volume: 1, topic: 2, lesson: 11, title: "So sánh các số thập phân"}
+  - {id: math-g5-kntt-012, grade: 5, subject: math, semester: 1, volume: 1, topic: 2, lesson: 12, title: "Viết số đo đại lượng dưới dạng số thập phân"}
+  - {id: math-g5-kntt-013, grade: 5, subject: math, semester: 1, volume: 1, topic: 2, lesson: 13, title: "Làm tròn số thập phân"}
+  - {id: math-g5-kntt-014, grade: 5, subject: math, semester: 1, volume: 1, topic: 2, lesson: 14, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-015, grade: 5, subject: math, semester: 1, volume: 1, topic: 3, lesson: 15, title: "Ki-lô-mét vuông. Héc-ta"}
+  - {id: math-g5-kntt-016, grade: 5, subject: math, semester: 1, volume: 1, topic: 3, lesson: 16, title: "Các đơn vị đo diện tích"}
+  - {id: math-g5-kntt-017, grade: 5, subject: math, semester: 1, volume: 1, topic: 3, lesson: 17, title: "Thực hành và trải nghiệm với một số đơn vị đo đại lượng"}
+  - {id: math-g5-kntt-018, grade: 5, subject: math, semester: 1, volume: 1, topic: 3, lesson: 18, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-019, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 19, title: "Phép cộng số thập phân"}
+  - {id: math-g5-kntt-020, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 20, title: "Phép trừ số thập phân"}
+  - {id: math-g5-kntt-021, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 21, title: "Phép nhân số thập phân"}
+  - {id: math-g5-kntt-022, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 22, title: "Phép chia số thập phân"}
+  - {id: math-g5-kntt-023, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 23, title: "Nhân, chia số thập phân với 10; 100; 1000;... hoặc với 0,1; 0,01; 0,001; ..."}
+  - {id: math-g5-kntt-024, grade: 5, subject: math, semester: 1, volume: 1, topic: 4, lesson: 24, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-025, grade: 5, subject: math, semester: 1, volume: 1, topic: 5, lesson: 25, title: "Hình tam giác. Diện tích hình tam giác"}
+  - {id: math-g5-kntt-026, grade: 5, subject: math, semester: 1, volume: 1, topic: 5, lesson: 26, title: "Hình thang. Diện tích hình thang"}
+  - {id: math-g5-kntt-027, grade: 5, subject: math, semester: 1, volume: 1, topic: 5, lesson: 27, title: "Đường tròn. Chu vi và diện tích hình tròn"}
+  - {id: math-g5-kntt-028, grade: 5, subject: math, semester: 1, volume: 1, topic: 5, lesson: 28, title: "Thực hành và trải nghiệm đo, vẽ, lắp ghép, tạo hình"}
+  - {id: math-g5-kntt-029, grade: 5, subject: math, semester: 1, volume: 1, topic: 5, lesson: 29, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-030, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 30, title: "Ôn tập số thập phân"}
+  - {id: math-g5-kntt-031, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 31, title: "Ôn tập các phép tính với số thập phân"}
+  - {id: math-g5-kntt-032, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 32, title: "Ôn tập một số hình phẳng"}
+  - {id: math-g5-kntt-033, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 33, title: "Ôn tập diện tích, chu vi một số hình phẳng"}
+  - {id: math-g5-kntt-034, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 34, title: "Ôn tập đo lường"}
+  - {id: math-g5-kntt-035, grade: 5, subject: math, semester: 1, volume: 1, topic: 6, lesson: 35, title: "Ôn tập chung"}
+  - {id: math-g5-kntt-036, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 36, title: "Tỉ số. Tỉ số phần trăm"}
+  - {id: math-g5-kntt-037, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 37, title: "Tỉ lệ bản đồ và ứng dụng"}
+  - {id: math-g5-kntt-038, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 38, title: "Tìm hai số khi biết tổng và tỉ số của hai số đó"}
+  - {id: math-g5-kntt-039, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 39, title: "Tìm hai số khi biết hiệu và tỉ số của hai số đó"}
+  - {id: math-g5-kntt-040, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 40, title: "Tìm tỉ số phần trăm của hai số"}
+  - {id: math-g5-kntt-041, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 41, title: "Tìm giá trị phần trăm của một số"}
+  - {id: math-g5-kntt-042, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 42, title: "Máy tính cầm tay"}
+  - {id: math-g5-kntt-043, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 43, title: "Thực hành và trải nghiệm sử dụng máy tính cầm tay"}
+  - {id: math-g5-kntt-044, grade: 5, subject: math, semester: 2, volume: 2, topic: 7, lesson: 44, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-045, grade: 5, subject: math, semester: 2, volume: 2, topic: 8, lesson: 45, title: "Thể tích của một hình"}
+  - {id: math-g5-kntt-046, grade: 5, subject: math, semester: 2, volume: 2, topic: 8, lesson: 46, title: "Xăng-ti-mét khối. Đề-xi-mét khối"}
+  - {id: math-g5-kntt-047, grade: 5, subject: math, semester: 2, volume: 2, topic: 8, lesson: 47, title: "Mét khối"}
+  - {id: math-g5-kntt-048, grade: 5, subject: math, semester: 2, volume: 2, topic: 8, lesson: 48, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-049, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 49, title: "Hình khai triển của hình lập phương, hình hộp chữ nhật và hình trụ"}
+  - {id: math-g5-kntt-050, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 50, title: "Diện tích xung quanh và diện tích toàn phần của hình hộp chữ nhật"}
+  - {id: math-g5-kntt-051, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 51, title: "Diện tích xung quanh và diện tích toàn phần của hình lập phương"}
+  - {id: math-g5-kntt-052, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 52, title: "Thể tích của hình hộp chữ nhật"}
+  - {id: math-g5-kntt-053, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 53, title: "Thể tích của hình lập phương"}
+  - {id: math-g5-kntt-054, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 54, title: "Thực hành tính toán và ước lượng thể tích một số hình khối"}
+  - {id: math-g5-kntt-055, grade: 5, subject: math, semester: 2, volume: 2, topic: 9, lesson: 55, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-056, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 56, title: "Các đơn vị đo thời gian"}
+  - {id: math-g5-kntt-057, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 57, title: "Cộng, trừ số đo thời gian"}
+  - {id: math-g5-kntt-058, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 58, title: "Nhân, chia số đo thời gian với một số"}
+  - {id: math-g5-kntt-059, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 59, title: "Vận tốc của một chuyển động đều"}
+  - {id: math-g5-kntt-060, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 60, title: "Quãng đường, thời gian của một chuyển động đều"}
+  - {id: math-g5-kntt-061, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 61, title: "Thực hành tính toán và ước lượng về vận tốc, quãng đường, thời gian trong chuyển động đều"}
+  - {id: math-g5-kntt-062, grade: 5, subject: math, semester: 2, volume: 2, topic: 10, lesson: 62, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-063, grade: 5, subject: math, semester: 2, volume: 2, topic: 11, lesson: 63, title: "Thu thập, phân loại, sắp xếp các số liệu"}
+  - {id: math-g5-kntt-064, grade: 5, subject: math, semester: 2, volume: 2, topic: 11, lesson: 64, title: "Biểu đồ hình quạt tròn"}
+  - {id: math-g5-kntt-065, grade: 5, subject: math, semester: 2, volume: 2, topic: 11, lesson: 65, title: "Tỉ số của số lần lặp lại một sự kiện so với tổng số lần thực hiện"}
+  - {id: math-g5-kntt-066, grade: 5, subject: math, semester: 2, volume: 2, topic: 11, lesson: 66, title: "Thực hành và trải nghiệm thu thập, phân tích, biểu diễn các số liệu thống kê"}
+  - {id: math-g5-kntt-067, grade: 5, subject: math, semester: 2, volume: 2, topic: 11, lesson: 67, title: "Luyện tập chung"}
+  - {id: math-g5-kntt-068, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 68, title: "Ôn tập số tự nhiên, phân số, số thập phân"}
+  - {id: math-g5-kntt-069, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 69, title: "Ôn tập các phép tính với số tự nhiên, phân số, số thập phân"}
+  - {id: math-g5-kntt-070, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 70, title: "Ôn tập tỉ số, tỉ số phần trăm"}
+  - {id: math-g5-kntt-071, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 71, title: "Ôn tập hình học"}
+  - {id: math-g5-kntt-072, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 72, title: "Ôn tập đo lường"}
+  - {id: math-g5-kntt-073, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 73, title: "Ôn tập toán chuyển động đều"}
+  - {id: math-g5-kntt-074, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 74, title: "Ôn tập một số yếu tố thống kê và xác suất"}
+  - {id: math-g5-kntt-075, grade: 5, subject: math, semester: 2, volume: 2, topic: 12, lesson: 75, title: "Ôn tập chung"}

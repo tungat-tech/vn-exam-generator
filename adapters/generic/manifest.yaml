@@ -1,0 +1,17 @@
+schema_version: 1
+adapter: generic
+module: math-grade-3-vn
+module_version: 1.1.0
+load_order:
+  - core/assessment.md
+  - core/question-design.md
+  - core/output-format.md
+  - core/quality-gate.md
+  - subjects/math/grade-3/skill.md
+  - subjects/math/grade-3/curriculum.md
+  - subjects/math/grade-3/textbook-mapping.md
+  - subjects/math/grade-3/textbook-mapping.yaml
+  - subjects/math/grade-3/assessment.md
+  - subjects/math/grade-3/output-format.md
+  - subjects/math/grade-3/quality-gate.md
+source_of_truth: false

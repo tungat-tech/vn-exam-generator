@@ -1,0 +1,64 @@
+schema_version: 1
+module: math-grade-1-vn
+version: 0.1.0-beta.1
+last_verified: 2026-08-13
+verification_status: provisional-secondary-mapping
+school_year: 2026-2027
+grade: 1
+subject: math
+language: vi
+textbook: Kết nối tri thức với cuộc sống
+lesson_count: 41
+topics:
+  - {id: 1, semester: 1, volume: 1, title: "Các số từ 0 đến 10", lesson_from: 1, lesson_to: 6}
+  - {id: 2, semester: 1, volume: 1, title: "Làm quen với một số hình phẳng", lesson_from: 7, lesson_to: 9}
+  - {id: 3, semester: 1, volume: 1, title: "Phép cộng, phép trừ trong phạm vi 10", lesson_from: 10, lesson_to: 13}
+  - {id: 4, semester: 1, volume: 1, title: "Làm quen với một số hình khối", lesson_from: 14, lesson_to: 16}
+  - {id: 5, semester: 1, volume: 1, title: "Ôn tập học kì 1", lesson_from: 17, lesson_to: 20}
+  - {id: 6, semester: 2, volume: 2, title: "Các số đến 100", lesson_from: 21, lesson_to: 24}
+  - {id: 7, semester: 2, volume: 2, title: "Độ dài và đo độ dài", lesson_from: 25, lesson_to: 28}
+  - {id: 8, semester: 2, volume: 2, title: "Phép cộng, phép trừ không nhớ trong phạm vi 100", lesson_from: 29, lesson_to: 33}
+  - {id: 9, semester: 2, volume: 2, title: "Thời gian, giờ và lịch", lesson_from: 34, lesson_to: 37}
+  - {id: 10, semester: 2, volume: 2, title: "Ôn tập cuối năm", lesson_from: 38, lesson_to: 41}
+lessons:
+  - {id: math-g1-kntt-001, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 1, title: "Các số 0, 1, 2, 3, 4, 5"}
+  - {id: math-g1-kntt-002, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 2, title: "Các số 6, 7, 8, 9, 10"}
+  - {id: math-g1-kntt-003, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 3, title: "Nhiều hơn, ít hơn, bằng nhau"}
+  - {id: math-g1-kntt-004, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 4, title: "So sánh số"}
+  - {id: math-g1-kntt-005, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 5, title: "Mấy và mấy"}
+  - {id: math-g1-kntt-006, grade: 1, subject: math, semester: 1, volume: 1, topic: 1, lesson: 6, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-007, grade: 1, subject: math, semester: 1, volume: 1, topic: 2, lesson: 7, title: "Hình vuông, hình tròn, hình tam giác, hình chữ nhật"}
+  - {id: math-g1-kntt-008, grade: 1, subject: math, semester: 1, volume: 1, topic: 2, lesson: 8, title: "Thực hành lắp ghép, xếp hình"}
+  - {id: math-g1-kntt-009, grade: 1, subject: math, semester: 1, volume: 1, topic: 2, lesson: 9, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-010, grade: 1, subject: math, semester: 1, volume: 1, topic: 3, lesson: 10, title: "Phép cộng trong phạm vi 10"}
+  - {id: math-g1-kntt-011, grade: 1, subject: math, semester: 1, volume: 1, topic: 3, lesson: 11, title: "Phép trừ trong phạm vi 10"}
+  - {id: math-g1-kntt-012, grade: 1, subject: math, semester: 1, volume: 1, topic: 3, lesson: 12, title: "Bảng cộng, bảng trừ trong phạm vi 10"}
+  - {id: math-g1-kntt-013, grade: 1, subject: math, semester: 1, volume: 1, topic: 3, lesson: 13, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-014, grade: 1, subject: math, semester: 1, volume: 1, topic: 4, lesson: 14, title: "Khối lập phương, khối hộp chữ nhật"}
+  - {id: math-g1-kntt-015, grade: 1, subject: math, semester: 1, volume: 1, topic: 4, lesson: 15, title: "Vị trí, định hướng trong không gian"}
+  - {id: math-g1-kntt-016, grade: 1, subject: math, semester: 1, volume: 1, topic: 4, lesson: 16, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-017, grade: 1, subject: math, semester: 1, volume: 1, topic: 5, lesson: 17, title: "Ôn tập các số trong phạm vi 10"}
+  - {id: math-g1-kntt-018, grade: 1, subject: math, semester: 1, volume: 1, topic: 5, lesson: 18, title: "Ôn tập phép cộng, phép trừ trong phạm vi 10"}
+  - {id: math-g1-kntt-019, grade: 1, subject: math, semester: 1, volume: 1, topic: 5, lesson: 19, title: "Ôn tập hình học"}
+  - {id: math-g1-kntt-020, grade: 1, subject: math, semester: 1, volume: 1, topic: 5, lesson: 20, title: "Ôn tập chung"}
+  - {id: math-g1-kntt-021, grade: 1, subject: math, semester: 2, volume: 2, topic: 6, lesson: 21, title: "Số có hai chữ số"}
+  - {id: math-g1-kntt-022, grade: 1, subject: math, semester: 2, volume: 2, topic: 6, lesson: 22, title: "So sánh số có hai chữ số"}
+  - {id: math-g1-kntt-023, grade: 1, subject: math, semester: 2, volume: 2, topic: 6, lesson: 23, title: "Bảng các số từ 1 đến 100"}
+  - {id: math-g1-kntt-024, grade: 1, subject: math, semester: 2, volume: 2, topic: 6, lesson: 24, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-025, grade: 1, subject: math, semester: 2, volume: 2, topic: 7, lesson: 25, title: "Dài hơn, ngắn hơn"}
+  - {id: math-g1-kntt-026, grade: 1, subject: math, semester: 2, volume: 2, topic: 7, lesson: 26, title: "Đơn vị đo độ dài"}
+  - {id: math-g1-kntt-027, grade: 1, subject: math, semester: 2, volume: 2, topic: 7, lesson: 27, title: "Thực hành ước lượng và đo độ dài"}
+  - {id: math-g1-kntt-028, grade: 1, subject: math, semester: 2, volume: 2, topic: 7, lesson: 28, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-029, grade: 1, subject: math, semester: 2, volume: 2, topic: 8, lesson: 29, title: "Phép cộng số có hai chữ số với số có một chữ số"}
+  - {id: math-g1-kntt-030, grade: 1, subject: math, semester: 2, volume: 2, topic: 8, lesson: 30, title: "Phép cộng số có hai chữ số với số có hai chữ số"}
+  - {id: math-g1-kntt-031, grade: 1, subject: math, semester: 2, volume: 2, topic: 8, lesson: 31, title: "Phép trừ số có hai chữ số cho số có một chữ số"}
+  - {id: math-g1-kntt-032, grade: 1, subject: math, semester: 2, volume: 2, topic: 8, lesson: 32, title: "Phép trừ số có hai chữ số cho số có hai chữ số"}
+  - {id: math-g1-kntt-033, grade: 1, subject: math, semester: 2, volume: 2, topic: 8, lesson: 33, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-034, grade: 1, subject: math, semester: 2, volume: 2, topic: 9, lesson: 34, title: "Xem giờ đúng trên đồng hồ"}
+  - {id: math-g1-kntt-035, grade: 1, subject: math, semester: 2, volume: 2, topic: 9, lesson: 35, title: "Các ngày trong tuần"}
+  - {id: math-g1-kntt-036, grade: 1, subject: math, semester: 2, volume: 2, topic: 9, lesson: 36, title: "Thực hành xem lịch và giờ"}
+  - {id: math-g1-kntt-037, grade: 1, subject: math, semester: 2, volume: 2, topic: 9, lesson: 37, title: "Luyện tập chung"}
+  - {id: math-g1-kntt-038, grade: 1, subject: math, semester: 2, volume: 2, topic: 10, lesson: 38, title: "Ôn tập các số và phép tính trong phạm vi 10"}
+  - {id: math-g1-kntt-039, grade: 1, subject: math, semester: 2, volume: 2, topic: 10, lesson: 39, title: "Ôn tập các số và phép tính trong phạm vi 100"}
+  - {id: math-g1-kntt-040, grade: 1, subject: math, semester: 2, volume: 2, topic: 10, lesson: 40, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g1-kntt-041, grade: 1, subject: math, semester: 2, volume: 2, topic: 10, lesson: 41, title: "Ôn tập chung"}

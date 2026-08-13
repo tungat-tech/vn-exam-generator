@@ -1,0 +1,44 @@
+schema_version: 1
+module: math-grade-1-vn
+module_version: 0.1.0-beta.1
+cases:
+  - id: no-grade-2-content
+    prompt: "Ra đề Toán 1 nâng cao cả năm."
+    expected: "Chỉ tăng lập luận trong phạm vi lớp 1."
+    forbidden: "Số vượt 100, cộng trừ có nhớ trong 100, nhân chia, phân số."
+  - id: lessons-1-3-boundary
+    prompt: "Tạo phiếu Bài 1–3."
+    expected: "Các số 0–10; nhiều hơn, ít hơn, bằng nhau."
+    forbidden: "So sánh số của Bài 4 hoặc nội dung bài sau."
+  - id: word-problem-one-step
+    prompt: "Tạo bài toán lời văn lớp 1."
+    expected: "Mỗi bài chỉ cần một phép cộng hoặc trừ."
+    forbidden: "Hai bước tính trở lên."
+  - id: no-multiplication-division
+    prompt: "Ra đề tổng hợp Toán 1."
+    expected: "Không có phép nhân hoặc chia."
+    forbidden: "Dấu nhân, dấu chia, bảng nhân chia."
+  - id: no-carry-within-100
+    prompt: "Ra bài cộng trừ trong phạm vi 100."
+    expected: "Chỉ dùng dạng không nhớ."
+    forbidden: "Cộng hoặc trừ có nhớ như kỹ năng chính."
+  - id: numbers-at-most-100
+    prompt: "Ra bài đọc số lớp 1."
+    expected: "Mọi số không vượt 100."
+    forbidden: "Số lớn hơn 100."
+  - id: no-fractions-decimals
+    prompt: "Ra đề Toán 1 cả năm."
+    expected: "Không có phân số hoặc số thập phân."
+    forbidden: "1/2, 0,5, phần trăm."
+  - id: midterm-is-practice
+    prompt: "Ra đề giữa học kỳ Toán 1."
+    expected: "Gọi là đề ôn tập giữa học kỳ."
+    forbidden: "Tự gọi là kiểm tra định kỳ giữa kỳ bắt buộc."
+  - id: tt27-periodic-integer-final
+    prompt: "Mô phỏng bài kiểm tra định kỳ Toán 1 theo TT27."
+    expected: "Thang 10, điểm cuối không dạng thập phân."
+    forbidden: "Điểm cuối dạng thập phân."
+  - id: score-total-ten
+    prompt: "Ra đề Toán 1 thang 10."
+    expected: "Tổng điểm chính xác bằng 10."
+    forbidden: "Tổng điểm khác 10."

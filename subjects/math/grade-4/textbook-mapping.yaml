@@ -1,0 +1,99 @@
+schema_version: 1
+module: math-grade-4-vn
+version: 0.1.0-beta.1
+last_verified: 2026-08-13
+verification_status: provisional-secondary-mapping
+school_year: 2026-2027
+grade: 4
+subject: math
+language: vi
+textbook: Kết nối tri thức với cuộc sống
+lesson_count: 73
+topics:
+  - {id: 1, semester: 1, volume: 1, title: "Ôn tập và bổ sung", lesson_from: 1, lesson_to: 6}
+  - {id: 2, semester: 1, volume: 1, title: "Góc và đơn vị đo góc", lesson_from: 7, lesson_to: 9}
+  - {id: 3, semester: 1, volume: 1, title: "Số có nhiều chữ số", lesson_from: 10, lesson_to: 16}
+  - {id: 4, semester: 1, volume: 1, title: "Một số đơn vị đo đại lượng", lesson_from: 17, lesson_to: 21}
+  - {id: 5, semester: 1, volume: 1, title: "Phép cộng và phép trừ", lesson_from: 22, lesson_to: 26}
+  - {id: 6, semester: 1, volume: 1, title: "Đường thẳng vuông góc. Đường thẳng song song", lesson_from: 27, lesson_to: 32}
+  - {id: 7, semester: 1, volume: 1, title: "Ôn tập học kì 1", lesson_from: 33, lesson_to: 37}
+  - {id: 8, semester: 2, volume: 2, title: "Phép nhân và phép chia", lesson_from: 38, lesson_to: 48}
+  - {id: 9, semester: 2, volume: 2, title: "Làm quen với yếu tố thống kê, xác suất", lesson_from: 49, lesson_to: 52}
+  - {id: 10, semester: 2, volume: 2, title: "Phân số", lesson_from: 53, lesson_to: 59}
+  - {id: 11, semester: 2, volume: 2, title: "Phép cộng, phép trừ phân số", lesson_from: 60, lesson_to: 62}
+  - {id: 12, semester: 2, volume: 2, title: "Phép nhân, phép chia phân số", lesson_from: 63, lesson_to: 66}
+  - {id: 13, semester: 2, volume: 2, title: "Ôn tập cuối năm", lesson_from: 67, lesson_to: 73}
+lessons:
+  - {id: math-g4-kntt-001, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 1, title: "Ôn tập các số đến 100 000"}
+  - {id: math-g4-kntt-002, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 2, title: "Ôn tập các phép tính trong phạm vi 100 000"}
+  - {id: math-g4-kntt-003, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 3, title: "Số chẵn, số lẻ"}
+  - {id: math-g4-kntt-004, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 4, title: "Biểu thức chứa chữ"}
+  - {id: math-g4-kntt-005, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 5, title: "Giải bài toán có ba bước tính"}
+  - {id: math-g4-kntt-006, grade: 4, subject: math, semester: 1, volume: 1, topic: 1, lesson: 6, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-007, grade: 4, subject: math, semester: 1, volume: 1, topic: 2, lesson: 7, title: "Đo góc, đơn vị đo góc"}
+  - {id: math-g4-kntt-008, grade: 4, subject: math, semester: 1, volume: 1, topic: 2, lesson: 8, title: "Góc nhọn, góc tù, góc bẹt"}
+  - {id: math-g4-kntt-009, grade: 4, subject: math, semester: 1, volume: 1, topic: 2, lesson: 9, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-010, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 10, title: "Số có sáu chữ số. Số 1 000 000"}
+  - {id: math-g4-kntt-011, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 11, title: "Hàng và lớp"}
+  - {id: math-g4-kntt-012, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 12, title: "Các số trong phạm vi lớp triệu"}
+  - {id: math-g4-kntt-013, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 13, title: "Làm tròn số đến hàng trăm nghìn"}
+  - {id: math-g4-kntt-014, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 14, title: "So sánh các số có nhiều chữ số"}
+  - {id: math-g4-kntt-015, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 15, title: "Làm quen với dãy số tự nhiên"}
+  - {id: math-g4-kntt-016, grade: 4, subject: math, semester: 1, volume: 1, topic: 3, lesson: 16, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-017, grade: 4, subject: math, semester: 1, volume: 1, topic: 4, lesson: 17, title: "Yến, tạ, tấn"}
+  - {id: math-g4-kntt-018, grade: 4, subject: math, semester: 1, volume: 1, topic: 4, lesson: 18, title: "Đề-xi-mét vuông, mét vuông, mi-li-mét vuông"}
+  - {id: math-g4-kntt-019, grade: 4, subject: math, semester: 1, volume: 1, topic: 4, lesson: 19, title: "Giây, thế kỉ"}
+  - {id: math-g4-kntt-020, grade: 4, subject: math, semester: 1, volume: 1, topic: 4, lesson: 20, title: "Thực hành và trải nghiệm sử dụng một số đơn vị đo đại lượng"}
+  - {id: math-g4-kntt-021, grade: 4, subject: math, semester: 1, volume: 1, topic: 4, lesson: 21, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-022, grade: 4, subject: math, semester: 1, volume: 1, topic: 5, lesson: 22, title: "Phép cộng các số có nhiều chữ số"}
+  - {id: math-g4-kntt-023, grade: 4, subject: math, semester: 1, volume: 1, topic: 5, lesson: 23, title: "Phép trừ các số có nhiều chữ số"}
+  - {id: math-g4-kntt-024, grade: 4, subject: math, semester: 1, volume: 1, topic: 5, lesson: 24, title: "Tính chất giao hoán và kết hợp của phép cộng"}
+  - {id: math-g4-kntt-025, grade: 4, subject: math, semester: 1, volume: 1, topic: 5, lesson: 25, title: "Tìm hai số biết tổng và hiệu của hai số đó"}
+  - {id: math-g4-kntt-026, grade: 4, subject: math, semester: 1, volume: 1, topic: 5, lesson: 26, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-027, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 27, title: "Hai đường thẳng vuông góc"}
+  - {id: math-g4-kntt-028, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 28, title: "Thực hành và trải nghiệm vẽ hai đường thẳng vuông góc"}
+  - {id: math-g4-kntt-029, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 29, title: "Hai đường thẳng song song"}
+  - {id: math-g4-kntt-030, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 30, title: "Thực hành và trải nghiệm vẽ hai đường thẳng song song"}
+  - {id: math-g4-kntt-031, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 31, title: "Hình bình hành, hình thoi"}
+  - {id: math-g4-kntt-032, grade: 4, subject: math, semester: 1, volume: 1, topic: 6, lesson: 32, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-033, grade: 4, subject: math, semester: 1, volume: 1, topic: 7, lesson: 33, title: "Ôn tập các số đến lớp triệu"}
+  - {id: math-g4-kntt-034, grade: 4, subject: math, semester: 1, volume: 1, topic: 7, lesson: 34, title: "Ôn tập phép cộng, phép trừ"}
+  - {id: math-g4-kntt-035, grade: 4, subject: math, semester: 1, volume: 1, topic: 7, lesson: 35, title: "Ôn tập hình học"}
+  - {id: math-g4-kntt-036, grade: 4, subject: math, semester: 1, volume: 1, topic: 7, lesson: 36, title: "Ôn tập đo lường"}
+  - {id: math-g4-kntt-037, grade: 4, subject: math, semester: 1, volume: 1, topic: 7, lesson: 37, title: "Ôn tập chung"}
+  - {id: math-g4-kntt-038, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 38, title: "Nhân với số có một chữ số"}
+  - {id: math-g4-kntt-039, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 39, title: "Chia cho số có một chữ số"}
+  - {id: math-g4-kntt-040, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 40, title: "Tính chất giao hoán và kết hợp của phép nhân"}
+  - {id: math-g4-kntt-041, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 41, title: "Nhân, chia với 10, 100, 1 000, ..."}
+  - {id: math-g4-kntt-042, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 42, title: "Tính chất phân phối của phép nhân đối với phép cộng"}
+  - {id: math-g4-kntt-043, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 43, title: "Nhân với số có hai chữ số"}
+  - {id: math-g4-kntt-044, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 44, title: "Chia cho số có hai chữ số"}
+  - {id: math-g4-kntt-045, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 45, title: "Thực hành và trải nghiệm ước lượng trong tính toán"}
+  - {id: math-g4-kntt-046, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 46, title: "Tìm số trung bình cộng"}
+  - {id: math-g4-kntt-047, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 47, title: "Bài toán liên quan đến rút về đơn vị"}
+  - {id: math-g4-kntt-048, grade: 4, subject: math, semester: 2, volume: 2, topic: 8, lesson: 48, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-049, grade: 4, subject: math, semester: 2, volume: 2, topic: 9, lesson: 49, title: "Dãy số liệu thống kê"}
+  - {id: math-g4-kntt-050, grade: 4, subject: math, semester: 2, volume: 2, topic: 9, lesson: 50, title: "Biểu đồ cột"}
+  - {id: math-g4-kntt-051, grade: 4, subject: math, semester: 2, volume: 2, topic: 9, lesson: 51, title: "Số lần xuất hiện của một sự kiện"}
+  - {id: math-g4-kntt-052, grade: 4, subject: math, semester: 2, volume: 2, topic: 9, lesson: 52, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-053, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 53, title: "Khái niệm phân số"}
+  - {id: math-g4-kntt-054, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 54, title: "Phân số và phép chia số tự nhiên"}
+  - {id: math-g4-kntt-055, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 55, title: "Tính chất cơ bản của phân số"}
+  - {id: math-g4-kntt-056, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 56, title: "Rút gọn phân số"}
+  - {id: math-g4-kntt-057, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 57, title: "Quy đồng mẫu số các phân số"}
+  - {id: math-g4-kntt-058, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 58, title: "So sánh phân số"}
+  - {id: math-g4-kntt-059, grade: 4, subject: math, semester: 2, volume: 2, topic: 10, lesson: 59, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-060, grade: 4, subject: math, semester: 2, volume: 2, topic: 11, lesson: 60, title: "Phép cộng phân số"}
+  - {id: math-g4-kntt-061, grade: 4, subject: math, semester: 2, volume: 2, topic: 11, lesson: 61, title: "Phép trừ phân số"}
+  - {id: math-g4-kntt-062, grade: 4, subject: math, semester: 2, volume: 2, topic: 11, lesson: 62, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-063, grade: 4, subject: math, semester: 2, volume: 2, topic: 12, lesson: 63, title: "Phép nhân phân số"}
+  - {id: math-g4-kntt-064, grade: 4, subject: math, semester: 2, volume: 2, topic: 12, lesson: 64, title: "Phép chia phân số"}
+  - {id: math-g4-kntt-065, grade: 4, subject: math, semester: 2, volume: 2, topic: 12, lesson: 65, title: "Tìm phân số của một số"}
+  - {id: math-g4-kntt-066, grade: 4, subject: math, semester: 2, volume: 2, topic: 12, lesson: 66, title: "Luyện tập chung"}
+  - {id: math-g4-kntt-067, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 67, title: "Ôn tập số tự nhiên"}
+  - {id: math-g4-kntt-068, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 68, title: "Ôn tập phép tính với số tự nhiên"}
+  - {id: math-g4-kntt-069, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 69, title: "Ôn tập phân số"}
+  - {id: math-g4-kntt-070, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 70, title: "Ôn tập phép tính với phân số"}
+  - {id: math-g4-kntt-071, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 71, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g4-kntt-072, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 72, title: "Ôn tập một số yếu tố thống kê và xác suất"}
+  - {id: math-g4-kntt-073, grade: 4, subject: math, semester: 2, volume: 2, topic: 13, lesson: 73, title: "Ôn tập chung"}

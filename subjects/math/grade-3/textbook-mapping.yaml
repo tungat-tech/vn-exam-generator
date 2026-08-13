@@ -1,0 +1,110 @@
+schema_version: 1
+module: math-grade-3-vn
+version: 1.1.0
+source_version: "1.1"
+last_verified: 2026-08-12
+school_year: 2026-2027
+grade: 3
+subject: math
+language: vi
+textbook: Kết nối tri thức với cuộc sống
+lesson_count: 81
+topics:
+  - {id: 1, semester: 1, volume: 1, title: "Ôn tập và bổ sung", lesson_from: 1, lesson_to: 8}
+  - {id: 2, semester: 1, volume: 1, title: "Bảng nhân, bảng chia", lesson_from: 9, lesson_to: 15}
+  - {id: 3, semester: 1, volume: 1, title: "Làm quen với hình phẳng, hình khối", lesson_from: 16, lesson_to: 22}
+  - {id: 4, semester: 1, volume: 1, title: "Phép nhân, phép chia trong phạm vi 100", lesson_from: 23, lesson_to: 29}
+  - {id: 5, semester: 1, volume: 1, title: "Một số đơn vị đo độ dài, khối lượng, dung tích, nhiệt độ", lesson_from: 30, lesson_to: 35}
+  - {id: 6, semester: 1, volume: 1, title: "Phép nhân, phép chia trong phạm vi 1 000", lesson_from: 36, lesson_to: 40}
+  - {id: 7, semester: 1, volume: 1, title: "Ôn tập học kì I", lesson_from: 41, lesson_to: 44}
+  - {id: 8, semester: 2, volume: 2, title: "Các số đến 10 000", lesson_from: 45, lesson_to: 49}
+  - {id: 9, semester: 2, volume: 2, title: "Chu vi, diện tích một số hình phẳng", lesson_from: 50, lesson_to: 53}
+  - {id: 10, semester: 2, volume: 2, title: "Cộng, trừ, nhân, chia trong phạm vi 10 000", lesson_from: 54, lesson_to: 58}
+  - {id: 11, semester: 2, volume: 2, title: "Các số đến 100 000", lesson_from: 59, lesson_to: 62}
+  - {id: 12, semester: 2, volume: 2, title: "Cộng, trừ trong phạm vi 100 000", lesson_from: 63, lesson_to: 65}
+  - {id: 13, semester: 2, volume: 2, title: "Xem đồng hồ, tháng – năm, tiền Việt Nam", lesson_from: 66, lesson_to: 69}
+  - {id: 14, semester: 2, volume: 2, title: "Nhân, chia trong phạm vi 100 000", lesson_from: 70, lesson_to: 72}
+  - {id: 15, semester: 2, volume: 2, title: "Làm quen với yếu tố thống kê, xác suất", lesson_from: 73, lesson_to: 75}
+  - {id: 16, semester: 2, volume: 2, title: "Ôn tập cuối năm", lesson_from: 76, lesson_to: 81}
+lessons:
+  - {id: math-g3-kntt-001, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 1, title: "Ôn tập các số đến 1 000"}
+  - {id: math-g3-kntt-002, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 2, title: "Ôn tập phép cộng, phép trừ trong phạm vi 1 000"}
+  - {id: math-g3-kntt-003, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 3, title: "Tìm thành phần trong phép cộng, phép trừ"}
+  - {id: math-g3-kntt-004, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 4, title: "Ôn tập bảng nhân 2; 5, bảng chia 2; 5"}
+  - {id: math-g3-kntt-005, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 5, title: "Bảng nhân 3, bảng chia 3"}
+  - {id: math-g3-kntt-006, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 6, title: "Bảng nhân 4, bảng chia 4"}
+  - {id: math-g3-kntt-007, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 7, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g3-kntt-008, grade: 3, subject: math, semester: 1, volume: 1, topic: 1, lesson: 8, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-009, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 9, title: "Bảng nhân 6, bảng chia 6"}
+  - {id: math-g3-kntt-010, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 10, title: "Bảng nhân 7, bảng chia 7"}
+  - {id: math-g3-kntt-011, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 11, title: "Bảng nhân 8, bảng chia 8"}
+  - {id: math-g3-kntt-012, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 12, title: "Bảng nhân 9, bảng chia 9"}
+  - {id: math-g3-kntt-013, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 13, title: "Tìm thành phần trong phép nhân, phép chia"}
+  - {id: math-g3-kntt-014, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 14, title: "Một phần mấy"}
+  - {id: math-g3-kntt-015, grade: 3, subject: math, semester: 1, volume: 1, topic: 2, lesson: 15, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-016, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 16, title: "Điểm ở giữa, trung điểm của đoạn thẳng"}
+  - {id: math-g3-kntt-017, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 17, title: "Hình tròn. Tâm, bán kính, đường kính của hình tròn"}
+  - {id: math-g3-kntt-018, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 18, title: "Góc, góc vuông, góc không vuông"}
+  - {id: math-g3-kntt-019, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 19, title: "Hình tam giác, hình tứ giác. Hình chữ nhật, hình vuông"}
+  - {id: math-g3-kntt-020, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 20, title: "Thực hành vẽ góc vuông, vẽ đường tròn, hình vuông, hình chữ nhật và vẽ trang trí"}
+  - {id: math-g3-kntt-021, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 21, title: "Khối lập phương, khối hộp chữ nhật"}
+  - {id: math-g3-kntt-022, grade: 3, subject: math, semester: 1, volume: 1, topic: 3, lesson: 22, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-023, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 23, title: "Nhân số có hai chữ số với số có một chữ số"}
+  - {id: math-g3-kntt-024, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 24, title: "Gấp một số lên một số lần"}
+  - {id: math-g3-kntt-025, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 25, title: "Phép chia hết, phép chia có dư"}
+  - {id: math-g3-kntt-026, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 26, title: "Chia số có hai chữ số cho số có một chữ số"}
+  - {id: math-g3-kntt-027, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 27, title: "Giảm một số đi một số lần"}
+  - {id: math-g3-kntt-028, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 28, title: "Giải bài toán bằng hai bước tính"}
+  - {id: math-g3-kntt-029, grade: 3, subject: math, semester: 1, volume: 1, topic: 4, lesson: 29, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-030, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 30, title: "Mi-li-mét"}
+  - {id: math-g3-kntt-031, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 31, title: "Gam"}
+  - {id: math-g3-kntt-032, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 32, title: "Mi-li-lít"}
+  - {id: math-g3-kntt-033, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 33, title: "Nhiệt độ. Đơn vị đo nhiệt độ"}
+  - {id: math-g3-kntt-034, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 34, title: "Thực hành và trải nghiệm các đơn vị mi-li-mét, gam, mi-li-lít, độ C"}
+  - {id: math-g3-kntt-035, grade: 3, subject: math, semester: 1, volume: 1, topic: 5, lesson: 35, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-036, grade: 3, subject: math, semester: 1, volume: 1, topic: 6, lesson: 36, title: "Nhân số có ba chữ số với số có một chữ số"}
+  - {id: math-g3-kntt-037, grade: 3, subject: math, semester: 1, volume: 1, topic: 6, lesson: 37, title: "Chia số có ba chữ số cho số có một chữ số"}
+  - {id: math-g3-kntt-038, grade: 3, subject: math, semester: 1, volume: 1, topic: 6, lesson: 38, title: "Biểu thức số. Tính giá trị của biểu thức số"}
+  - {id: math-g3-kntt-039, grade: 3, subject: math, semester: 1, volume: 1, topic: 6, lesson: 39, title: "So sánh số lớn gấp mấy lần số bé"}
+  - {id: math-g3-kntt-040, grade: 3, subject: math, semester: 1, volume: 1, topic: 6, lesson: 40, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-041, grade: 3, subject: math, semester: 1, volume: 1, topic: 7, lesson: 41, title: "Ôn tập phép nhân, phép chia trong phạm vi 100, 1 000"}
+  - {id: math-g3-kntt-042, grade: 3, subject: math, semester: 1, volume: 1, topic: 7, lesson: 42, title: "Ôn tập biểu thức số"}
+  - {id: math-g3-kntt-043, grade: 3, subject: math, semester: 1, volume: 1, topic: 7, lesson: 43, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g3-kntt-044, grade: 3, subject: math, semester: 1, volume: 1, topic: 7, lesson: 44, title: "Ôn tập chung"}
+  - {id: math-g3-kntt-045, grade: 3, subject: math, semester: 2, volume: 2, topic: 8, lesson: 45, title: "Các số có bốn chữ số. Số 10 000"}
+  - {id: math-g3-kntt-046, grade: 3, subject: math, semester: 2, volume: 2, topic: 8, lesson: 46, title: "So sánh các số trong phạm vi 10 000"}
+  - {id: math-g3-kntt-047, grade: 3, subject: math, semester: 2, volume: 2, topic: 8, lesson: 47, title: "Làm quen với chữ số La Mã"}
+  - {id: math-g3-kntt-048, grade: 3, subject: math, semester: 2, volume: 2, topic: 8, lesson: 48, title: "Làm tròn số đến hàng chục, hàng trăm"}
+  - {id: math-g3-kntt-049, grade: 3, subject: math, semester: 2, volume: 2, topic: 8, lesson: 49, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-050, grade: 3, subject: math, semester: 2, volume: 2, topic: 9, lesson: 50, title: "Chu vi hình tam giác, hình tứ giác, hình chữ nhật, hình vuông"}
+  - {id: math-g3-kntt-051, grade: 3, subject: math, semester: 2, volume: 2, topic: 9, lesson: 51, title: "Diện tích của một hình. Xăng-ti-mét vuông"}
+  - {id: math-g3-kntt-052, grade: 3, subject: math, semester: 2, volume: 2, topic: 9, lesson: 52, title: "Diện tích hình chữ nhật, diện tích hình vuông"}
+  - {id: math-g3-kntt-053, grade: 3, subject: math, semester: 2, volume: 2, topic: 9, lesson: 53, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-054, grade: 3, subject: math, semester: 2, volume: 2, topic: 10, lesson: 54, title: "Phép cộng trong phạm vi 10 000"}
+  - {id: math-g3-kntt-055, grade: 3, subject: math, semester: 2, volume: 2, topic: 10, lesson: 55, title: "Phép trừ trong phạm vi 10 000"}
+  - {id: math-g3-kntt-056, grade: 3, subject: math, semester: 2, volume: 2, topic: 10, lesson: 56, title: "Nhân số có bốn chữ số với số có một chữ số"}
+  - {id: math-g3-kntt-057, grade: 3, subject: math, semester: 2, volume: 2, topic: 10, lesson: 57, title: "Chia số có bốn chữ số cho số có một chữ số"}
+  - {id: math-g3-kntt-058, grade: 3, subject: math, semester: 2, volume: 2, topic: 10, lesson: 58, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-059, grade: 3, subject: math, semester: 2, volume: 2, topic: 11, lesson: 59, title: "Các số có năm chữ số. Số 100 000"}
+  - {id: math-g3-kntt-060, grade: 3, subject: math, semester: 2, volume: 2, topic: 11, lesson: 60, title: "So sánh các số trong phạm vi 100 000"}
+  - {id: math-g3-kntt-061, grade: 3, subject: math, semester: 2, volume: 2, topic: 11, lesson: 61, title: "Làm tròn số đến hàng nghìn, hàng chục nghìn"}
+  - {id: math-g3-kntt-062, grade: 3, subject: math, semester: 2, volume: 2, topic: 11, lesson: 62, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-063, grade: 3, subject: math, semester: 2, volume: 2, topic: 12, lesson: 63, title: "Phép cộng trong phạm vi 100 000"}
+  - {id: math-g3-kntt-064, grade: 3, subject: math, semester: 2, volume: 2, topic: 12, lesson: 64, title: "Phép trừ trong phạm vi 100 000"}
+  - {id: math-g3-kntt-065, grade: 3, subject: math, semester: 2, volume: 2, topic: 12, lesson: 65, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-066, grade: 3, subject: math, semester: 2, volume: 2, topic: 13, lesson: 66, title: "Xem đồng hồ. Tháng – năm"}
+  - {id: math-g3-kntt-067, grade: 3, subject: math, semester: 2, volume: 2, topic: 13, lesson: 67, title: "Thực hành xem đồng hồ, xem lịch"}
+  - {id: math-g3-kntt-068, grade: 3, subject: math, semester: 2, volume: 2, topic: 13, lesson: 68, title: "Tiền Việt Nam"}
+  - {id: math-g3-kntt-069, grade: 3, subject: math, semester: 2, volume: 2, topic: 13, lesson: 69, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-070, grade: 3, subject: math, semester: 2, volume: 2, topic: 14, lesson: 70, title: "Nhân số có năm chữ số với số có một chữ số"}
+  - {id: math-g3-kntt-071, grade: 3, subject: math, semester: 2, volume: 2, topic: 14, lesson: 71, title: "Chia số có năm chữ số cho số có một chữ số"}
+  - {id: math-g3-kntt-072, grade: 3, subject: math, semester: 2, volume: 2, topic: 14, lesson: 72, title: "Luyện tập chung"}
+  - {id: math-g3-kntt-073, grade: 3, subject: math, semester: 2, volume: 2, topic: 15, lesson: 73, title: "Thu thập, phân loại, ghi chép số liệu. Bảng số liệu"}
+  - {id: math-g3-kntt-074, grade: 3, subject: math, semester: 2, volume: 2, topic: 15, lesson: 74, title: "Khả năng xảy ra của một sự kiện"}
+  - {id: math-g3-kntt-075, grade: 3, subject: math, semester: 2, volume: 2, topic: 15, lesson: 75, title: "Thực hành và trải nghiệm thu thập, phân loại, ghi chép số liệu, đọc bảng số liệu"}
+  - {id: math-g3-kntt-076, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 76, title: "Ôn tập các số trong phạm vi 10 000, 100 000"}
+  - {id: math-g3-kntt-077, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 77, title: "Ôn tập phép cộng, phép trừ trong phạm vi 100 000"}
+  - {id: math-g3-kntt-078, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 78, title: "Ôn tập phép nhân, phép chia trong phạm vi 100 000"}
+  - {id: math-g3-kntt-079, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 79, title: "Ôn tập hình học và đo lường"}
+  - {id: math-g3-kntt-080, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 80, title: "Ôn tập bảng số liệu, khả năng xảy ra của một sự kiện"}
+  - {id: math-g3-kntt-081, grade: 3, subject: math, semester: 2, volume: 2, topic: 16, lesson: 81, title: "Ôn tập chung"}

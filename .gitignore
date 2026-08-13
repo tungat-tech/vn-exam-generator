@@ -1,0 +1,14 @@
+# Generated bundles and reports
+dist/
+test-results/
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Temporary files
+*.tmp
+*.bak
+*~

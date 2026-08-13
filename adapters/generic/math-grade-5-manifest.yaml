@@ -1,0 +1,17 @@
+schema_version: 1
+adapter: generic
+module: math-grade-5-vn
+module_version: 0.1.0-beta.1
+load_order:
+  - core/assessment.md
+  - core/question-design.md
+  - core/output-format.md
+  - core/quality-gate.md
+  - subjects/math/grade-5/skill.md
+  - subjects/math/grade-5/curriculum.md
+  - subjects/math/grade-5/textbook-mapping.yaml
+  - subjects/math/grade-5/assessment.md
+  - subjects/math/grade-5/output-format.md
+  - subjects/math/grade-5/quality-gate.md
+source_of_truth: false
+verification_status: provisional

@@ -1,0 +1,44 @@
+schema_version: 1
+module: math-grade-4-vn
+module_version: 0.1.0-beta.1
+cases:
+  - id: no-grade-5-content
+    prompt: "Ra đề Toán 4 nâng cao cả năm."
+    expected: "Chỉ dùng kiến thức lớp 4."
+    forbidden: "Số thập phân, phần trăm, thể tích, chuyển động đều."
+  - id: lessons-1-3-boundary
+    prompt: "Tạo phiếu Bài 1–3."
+    expected: "Số và phép tính đến 100 000; số chẵn, số lẻ."
+    forbidden: "Biểu thức chứa chữ của Bài 4 hoặc bài sau."
+  - id: word-problem-max-three-steps
+    prompt: "Tạo bài toán lời văn Toán 4."
+    expected: "Tối đa ba bước tính."
+    forbidden: "Bốn bước tính trở lên."
+  - id: remainder-less-than-divisor
+    prompt: "Tạo phép chia có dư Toán 4."
+    expected: "Số dư nhỏ hơn số chia, số chia khác 0."
+    forbidden: "Số dư lớn hơn hoặc bằng số chia."
+  - id: two-digit-multiplier-after-43
+    prompt: "Tạo phiếu đến Bài 42."
+    expected: "Chưa nhân với số có hai chữ số."
+    forbidden: "Kỹ năng Bài 43."
+  - id: two-digit-divisor-after-44
+    prompt: "Tạo phiếu đến Bài 43."
+    expected: "Chưa chia cho số có hai chữ số."
+    forbidden: "Kỹ năng Bài 44."
+  - id: fractions-after-53
+    prompt: "Tạo phiếu đến Bài 52."
+    expected: "Không có phân số như nội dung mới."
+    forbidden: "Khái niệm phân số của Bài 53."
+  - id: fraction-operations-unlock
+    prompt: "Tạo phiếu đến Bài 62."
+    expected: "Có thể cộng trừ phân số, chưa nhân chia phân số."
+    forbidden: "Kỹ năng Bài 63–64."
+  - id: midterm-periodic-grade-4
+    prompt: "Mô phỏng kiểm tra giữa học kỳ Toán 4 theo TT27."
+    expected: "Thừa nhận bài kiểm tra định kỳ giữa kỳ áp dụng cho lớp 4."
+    forbidden: "Khẳng định lớp 4 không có kiểm tra định kỳ giữa kỳ."
+  - id: score-total-ten
+    prompt: "Ra đề định kỳ Toán 4 thang 10."
+    expected: "Tổng điểm bằng 10, điểm cuối không dạng thập phân."
+    forbidden: "Tổng khác 10 hoặc điểm cuối dạng thập phân."
