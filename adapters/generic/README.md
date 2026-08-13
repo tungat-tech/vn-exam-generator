@@ -1,20 +1,28 @@
 # Generic adapter
 
-Dùng với LLM có khả năng nhận nhiều tệp hoặc một context dài.
+Adapter này đóng gói module thành file Markdown độc lập nhà cung cấp LLM.
 
-## Cách dùng
+## Người dùng cuối
 
-1. Chọn manifest đúng lớp (`manifest.yaml` cho Toán 3 hoặc `math-grade-<n>-manifest.yaml` cho module beta).
-2. Nạp các file theo đúng thứ tự `load_order` và cho LLM biết `skill.md` của lớp là workflow điều phối; YAML mapping là dữ liệu, không phải lời nhắc để sao chép bài SGK.
-3. Gửi yêu cầu tự nhiên bằng tiếng Việt.
-4. Yêu cầu mô hình tự kiểm tra bằng hai quality gate trước khi trả lời.
+Không cần dùng manifest. Chỉ tải một file đúng lớp từ [`downloads/`](../../downloads/) và đính kèm vào ChatGPT, Claude, Gemini hoặc LLM có hỗ trợ file Markdown.
 
-Nếu môi trường chỉ nhận một prompt, nối nội dung các file theo thứ tự manifest và đặt đường dẫn làm heading phân cách. Bundle chỉ là artifact tạm; không commit bundle làm source of truth.
+## Developer
 
-Ví dụ lời dẫn:
+Manifest xác định chính xác thứ tự hợp nhất các nguồn:
 
-```text
-Hãy tuân thủ module Toán lớp 3 được cung cấp. Xác định scope từ mapping,
-không dùng kiến thức chưa học, và chạy Quality Gate trước khi trả lời.
-Yêu cầu: Ra đề ôn tập từ Bài 1 đến Bài 3, 30 phút, có đáp án tách riêng.
+- `manifest.yaml`: Toán 3 verified;
+- `math-grade-1-manifest.yaml`, `math-grade-2-manifest.yaml`, `math-grade-4-manifest.yaml`, `math-grade-5-manifest.yaml`: các module beta.
+
+Build tất cả:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/build-generic-math-grade.ps1
 ```
+
+Build một lớp:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/build-generic-math-grade.ps1 -Grade 3
+```
+
+Các file trong `downloads/` là artifact được commit để người dùng tải trực tiếp, nhưng có `source_of_truth: false`. Mọi thay đổi curriculum phải thực hiện trong `core/` hoặc `subjects/`, sau đó rebuild và chạy `tests/validate-generic-bundles.ps1`.

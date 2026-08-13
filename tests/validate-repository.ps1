@@ -22,6 +22,11 @@ $requiredFiles = @(
     'subjects/math/grade-3/textbook-mapping.yaml', 'subjects/math/grade-3/textbook-mapping.md',
     'subjects/math/grade-3/assessment.md', 'subjects/math/grade-3/output-format.md',
     'subjects/math/grade-3/quality-gate.md', 'adapters/generic/manifest.yaml',
+    'adapters/generic/bundle-preamble.md', 'scripts/build-generic-math-grade.ps1',
+    'tests/validate-generic-bundles.ps1',
+    'downloads/vietedukit-toan-lop-1.md', 'downloads/vietedukit-toan-lop-2.md',
+    'downloads/vietedukit-toan-lop-3.md', 'downloads/vietedukit-toan-lop-4.md',
+    'downloads/vietedukit-toan-lop-5.md',
     'tests/math-grade-3/cases.yaml', 'docs/source/TOAN3_SKILL_v1_1_VERIFIED_20260812.md'
 )
 foreach ($relativePath in $requiredFiles) {

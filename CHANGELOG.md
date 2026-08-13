@@ -11,6 +11,8 @@ Các thay đổi đáng chú ý của repository được ghi tại đây. Modul
 
 ### Added
 
+- Năm bundle generic một file Markdown cho người dùng cuối: Toán lớp 1–5, dùng được với ChatGPT, Claude, Gemini và LLM hỗ trợ upload file.
+- Builder và validator cho bundle generic một file.
 - Quy tắc preview/export dùng chung cho GPTs Toán 1–5: hiển thị document view trước, không tạo sẵn file; chỉ xuất PDF hoặc DOCX sau khi người dùng chọn.
 - Canvas routing thống nhất cho các intent tạo đề, phiếu, bài, bài tập, bài luyện và học liệu; không còn phụ thuộc riêng từ khóa “đề”.
 - Module beta Toán lớp 1 năm học 2026–2027 với mapping 10 chủ đề, Bài 1–41.
@@ -28,4 +30,5 @@ Các thay đổi đáng chú ý của repository được ghi tại đây. Modul
 
 ### Refactored
 
+- Tách README thành lối dùng đơn giản cho giáo viên/phụ huynh và tài liệu kỹ thuật cho developer/contributor.
 - Tách `TOAN3_SKILL_v1_1_VERIFIED_20260812.md` thành core dùng chung, curriculum Toán 3, assessment, mapping, output và quality gates; không chủ ý thay đổi nội dung giáo dục.
